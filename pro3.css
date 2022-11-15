@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.cover{
+    margin: 60px auto;
+}
+
+.google-logo{
+    display: block;
+    margin: 60px auto 25px;
+}
+
+.search-box{
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    display: flex;
+    height: 44px;
+    max-width: 584px;
+    margin: auto;
+}
+.search-box:hover{
+    box-shadow: 3px 2px 5px 0px grey;
+}
+
+.search-logo{
+    color: rgba(128, 128, 128, 0.795);
+    margin: 13px 20px;
+}
+
+.search{
+    border: none;
+    height: 38px;
+    width: 80%;
+}
+input:focus{
+    outline: none;
+}
+
+.cam-logo{
+    color: rgb(0, 103, 199);
+    margin: 12px 22px;
+}
+.cam-logo img{    
+    width: 25px;
+    height: 23px;
+}
+
+.below-field{
+    display: block;
+    margin-top: 28px;
+    text-align: center;
+}
+.below-one, .below-two{
+    background-color: rgba(128, 128, 128, 0.089);
+    border: none;
+    border-radius: 0 3px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 3px;
+    height: 35px;
+    width: 130px;
+}
+.below-one:hover, .below-two:hover{
+    box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.527);
+    cursor: pointer;
+}
